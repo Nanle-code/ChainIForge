@@ -1,6 +1,9 @@
 ## ChainiForge Demo Guide
 
-### 1. Local spin‑up
+### 🌐 Live Demo
+**Try ChainiForge now:** https://chainiforge.vercel.app
+
+### 1. Local spin‑up (Optional)
 
 ```bash
 cd ChainiForge        # project root
@@ -12,7 +15,7 @@ Open the printed URL (usually `http://localhost:5173`) in a browser with MetaMas
 
 ---
 
-### 2. Demo flow (5–7 minutes)
+### 2. Demo flow (5–7 minutes) - Live at https://chainiforge.vercel.app
 
 1. **Step 1 – Infrastructure & DA**
    - Set **Chain Name**, **Chain ID**, **RPC URL**, **Explorer URL**.
@@ -74,7 +77,21 @@ Open the printed URL (usually `http://localhost:5173`) in a browser with MetaMas
    - Click **Download Complete SDK** and mention that the zip contains:
      - A pre‑configured project,
      - `.env.example`,
-     - README with `npm install` and `npm run deploy` / `npm run dev` instructions.
+     - Sample contracts and deployment scripts,
+     - Complete README with setup instructions.
 
-Close with: this is **not** just a rollup generator; it’s a **full lifecycle control plane** for Polygon CDK chains (deployment, security, observability, and developer onboarding).
+---
 
+## 🎯 Demo Complete
+
+**ChainiForge successfully demonstrates:**
+- ✅ One-click CDK deployment
+- ✅ Modular DA selection with cost analysis
+- ✅ AggLayer Pessimistic Proofs integration
+- ✅ Enterprise compliance with Polygon ID
+- ✅ Developer SDK generation
+- ✅ Guardian emergency controls
+
+**🌐 Try it yourself:** https://chainiforge.vercel.app
+
+Close with: this is **not** just a rollup generator; it's a **full lifecycle control plane** for Polygon CDK chains (deployment, security, observability, and developer onboarding).

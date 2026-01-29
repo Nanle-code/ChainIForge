@@ -1,5 +1,8 @@
 # Implementation Plan - Polygon CDK One-Click Deployer (ChainiForge)
 
+## 🌐 Live Demo
+**ChainiForge is now live:** https://chainiforge.vercel.app
+
 ## Overview
 ChainiForge is a "One-Click" deployment platform for Polygon CDK Layer 2 networks. It simplifies the complex process of infrastructure setup, compliance integration, and economic configuration into a streamlined web interface.
 

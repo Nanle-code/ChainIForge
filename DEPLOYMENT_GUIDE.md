@@ -1,5 +1,8 @@
 # ChainiForge Deployment Guide | 2026 Enterprise Edition
 
+## 🌐 Live Demo
+**Try ChainiForge now:** https://chainiforge.vercel.app
+
 ## 🚀 Quick Start
 
 ChainiForge enables enterprises to deploy production-ready Polygon CDK chains with **one-click**. This guide covers the complete 2026 feature set including AggLayer integration, modular DA, and enterprise compliance.
@@ -385,4 +388,5 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ---
 
 **ChainiForge | Enterprise Polygon CDK Deployment Platform**  
-*Built for the 2026 AggLayer ecosystem*
+*Built for the 2026 AggLayer ecosystem*  
+🌐 **Live:** https://chainiforge.vercel.app

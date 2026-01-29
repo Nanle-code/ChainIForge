@@ -31,12 +31,22 @@ ChainiForge doesn't just deploy the chain; it builds the ecosystem.
 
 ## 🏃 Getting Started
 
+### 🌐 Try it Live
+**ChainiForge is now live at:** https://chainiforge.vercel.app
+
+### 🚀 Local Development
 ```bash
-git clone https://github.com/your-username/ChainiForge.git
+git clone https://github.com/Nanle-code/ChainIForge.git
 cd ChainiForge
 npm install
 npm run dev
 ```
+
+### 📋 Quick Demo (5 minutes)
+1. Visit https://chainiforge.vercel.app
+2. Configure your chain (Infrastructure → Economy → Permissions → Connectivity)
+3. Launch network with real Polygon Amoy deployment
+4. Download generated SDK and explore monitoring dashboard
 
 ## 📊 Comparison: Manual vs. ChainiForge
 
@@ -51,3 +61,14 @@ npm run dev
 
 ---
 *Built for the Polygon Buildathon. Enabling the next wave of unified liquidity.*
+
+## 📚 Documentation
+- **[Deployment Guide](./DEPLOYMENT_GUIDE.md)** - Comprehensive deployment documentation
+- **[Demo Guide](./DEMO_GUIDE.md)** - Step-by-step demo instructions
+- **[Implementation Plan](./implementation_plan.md)** - Complete development roadmap
+
+## 🏆 Status
+- ✅ **Production Ready** - All 2026 features implemented
+- 🌐 **Live Deployment** - https://chainiforge.vercel.app
+- 📊 **Complete Feature Set** - Modular DA, AggLayer, Compliance, Monitoring
+- 🚀 **Enterprise Grade** - Professional UI/UX with glassmorphism design

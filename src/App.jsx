@@ -18,7 +18,8 @@ import {
     Code2,
     Database,
     Calculator as CalcIcon,
-    LayoutDashboard
+    LayoutDashboard,
+    BookTemplate
 } from 'lucide-react'
 
 // Components
@@ -29,6 +30,7 @@ import DeploymentTerminal from './components/DeploymentTerminal'
 import EconomicCalculator from './components/EconomicCalculator'
 import GuardianMode from './components/GuardianMode'
 import DeveloperSandbox from './components/DeveloperSandbox'
+import TemplateLibrary from './components/TemplateLibrary'
 
 const SidebarItem = ({ icon: Icon, label, active, onClick }) => (
     <div
@@ -400,6 +402,12 @@ function App() {
                         onClick={() => setActiveTab('deploy')}
                     />
                     <SidebarItem
+                        icon={BookTemplate}
+                        label="Templates"
+                        active={activeTab === 'templates'}
+                        onClick={() => setActiveTab('templates')}
+                    />
+                    <SidebarItem
                         icon={LayoutDashboard}
                         label="Operations"
                         active={activeTab === 'ops'}
@@ -501,6 +509,15 @@ function App() {
                         </div>
                     )}
 
+                    {activeTab === 'templates' && (
+                        <TemplateLibrary 
+                            onSelectTemplate={(templateConfig) => {
+                                setConfig({ ...config, ...templateConfig })
+                                setActiveTab('deploy')
+                                setStep(1)
+                            }} 
+                        />
+                    )}
                     {activeTab === 'ops' && <Operations />}
                     {activeTab === 'compliance' && <Compliance />}
                     {activeTab === 'gas' && <GasManagement />}
